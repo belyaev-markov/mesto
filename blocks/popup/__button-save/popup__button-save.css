@@ -4,11 +4,21 @@
   display: flex;
   justify-content: center;
   background-color: black;
+  box-sizing: border-box;
+  padding: 14px 0 18px 0;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4vw;
+  line-height: calc(22 / 18);
   color: white;
   border: none;
 }
 @media all and (max-width: 767px) {
   .popup__button-save {
     margin: 45px 0 25px 0;
+    padding: 14px 0;
+    font-size: 4.4vw;
+    line-height: calc(17 / 14);
   }
 }
