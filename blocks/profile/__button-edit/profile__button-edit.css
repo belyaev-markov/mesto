@@ -1,0 +1,22 @@
+.profile__button-edit {
+  grid-column: 2;
+  grid-row: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  background-color: black;
+  padding: 0;
+}
+
+.profile__button-edit:hover {
+  opacity: 0.8;
+}
+
+@media all and (max-width: 767px) {
+  .profile__button-edit {
+    margin: 0 auto 0 10px;
+    width: calc(1800% / 47);
+  }
+}

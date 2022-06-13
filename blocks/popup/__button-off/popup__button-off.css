@@ -1,0 +1,25 @@
+.popup__button-off {
+  margin: 0 0 8px 8px;
+  padding: 0;
+  border: none;
+  width: calc(3200% / 425);
+  grid-column: 3;
+  grid-row: 1;
+  height: max-content;
+  align-self: flex-end;
+  background: none;
+  color: white;
+}
+
+.popup__button-off:hover {
+  opacity: 0.8;
+}
+
+@media all and (max-width: 767px) {
+  .popup__button-off {
+    grid-column: 2;
+    justify-self: flex-end;
+    margin: 0 0 16px 0;
+    width: calc(2000% / 282);
+  }
+}

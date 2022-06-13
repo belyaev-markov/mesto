@@ -1,0 +1,14 @@
+.header {
+  width: calc(88000% / 1280);
+  margin-top: 45px;
+  display: flex;
+  justify-content: start;
+  align-content: space-between;
+  border-bottom: 1px solid #545454;;
+}
+@media all and (max-width: 767px) {
+  .header {
+    width: 100%;
+    margin-top: 28px;
+  }
+}

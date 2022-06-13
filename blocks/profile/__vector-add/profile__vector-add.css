@@ -1,0 +1,11 @@
+.profile__vector-add {
+  width: calc(2200% / 150);
+  margin: 12.5px 0 12.5px 0;
+  color: white;
+}
+@media all and (max-width: 767px) {
+  .profile__vector-add {
+    width: calc(1600% / 282);
+    margin: 15px 0 15px 0;
+  }
+}

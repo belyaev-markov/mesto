@@ -1,0 +1,17 @@
+.popup {
+  grid-column: 1;
+  grid-row: 1;
+  max-width: 1280px;
+  min-width: 320px;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr calc(43000% / 1280) 1fr;
+  grid-template-rows: 1fr max-content 1fr;
+  z-index: 2;
+}
+@media all and (max-width: 767px) {
+  .popup {
+    grid-template-columns: 1fr calc(28200% / 320) 1fr;
+    max-width: 767px;
+  }
+}

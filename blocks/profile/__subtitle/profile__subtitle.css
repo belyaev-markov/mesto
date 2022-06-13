@@ -1,0 +1,27 @@
+.profile__subtitle {
+  margin: 16px 0 0 0;
+  padding: 0;
+  grid-column: 1 / -1;
+  grid-row: 2;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4vw;
+  line-height: calc(22 / 18);
+  text-align: left;
+
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media all and (max-width: 767px) {
+  .profile__subtitle {
+    grid-column: 1 / -1;
+    margin: 14px 0 0 0;
+    font-size: 4.4vw;
+    line-height: calc(17 / 14);
+    justify-self: center;
+    text-align: center;
+  }
+}

@@ -1,0 +1,10 @@
+.card__icon {
+  width: calc(2200% / 246);
+  margin-top: 4px;
+}
+.card__icon:hover {
+  transform: scale(calc(35 / 22), calc(44 / 19));
+}
+.card__icon:active {
+  color: black;
+}

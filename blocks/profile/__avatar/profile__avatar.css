@@ -1,0 +1,12 @@
+.profile__avatar {
+  width: calc(12000% / 880);
+  margin-right: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+@media all and (max-width: 767px) {
+  .profile__avatar {
+    margin: 0;
+    width: calc(12000% / 282);
+  }
+}

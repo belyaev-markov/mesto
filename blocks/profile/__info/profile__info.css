@@ -1,0 +1,16 @@
+.profile__info {
+  display: grid;
+  grid-template-columns: 1fr calc(2400% / 336);
+  justify-items: left;
+  align-items: center;
+  width: calc(33600% /880);
+  margin-right: auto;
+  color: white;
+}
+@media all and (max-width: 767px) {
+.profile__info {
+  margin-top: 22.25px;
+  width: 100%;
+  grid-template-columns: 1fr calc(4700% / 282);
+}
+}
