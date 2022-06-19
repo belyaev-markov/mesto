@@ -1,0 +1,8 @@
+.popup__field_position_top {
+  margin: 54px 0 0 0;
+}
+@media all and (max-width: 620px) {
+  .popup__field_position_top {
+    margin: 75px 0 0 0;
+  }
+}

@@ -1,0 +1,8 @@
+.html {
+  font-size: 10px;
+}
+@media all and (max-width: 620px) {
+  .html {
+    font-size: 5px;
+  }
+}

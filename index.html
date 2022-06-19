@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="html" lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="body">
-  <div class="page page_clear">
+  <div class="page">
     <header class="header">
       <img class="header__logo" src="./images/logo.svg" alt="Логотип">
     </header>
@@ -17,71 +17,84 @@
         <img class="profile__avatar" src="./images/avatar.png" alt="Кусто">
         <div class="profile__info">
           <h2 class="profile__title">Жак-Ив Кусто</h2>
-          <button type="button" class="profile__button-edit"><img class="profile__vector-edit" src="./images/icon-edit.svg" alt="Редактировать"></button>
+          <button type="button" class="profile__button-edit" aria-label="Редактировать"></button>
           <p class="profile__subtitle">Исследователь океана</p>
         </div>
-        <button type="button" class="profile__button-add"><img class="profile__vector-add" src="./images/icon-add.svg" alt="Добавить"></button>
+        <button type="button" class="profile__button-add" aria-label="Добавить"></button>
       </section>
-      <section class="cards">
-        <article class="card">
-          <img class="card__image" src="./images/card1.png" alt="Карачаевск">
-          <div class="card__content">
-            <h2 class="card__title">Карачаевск</h2>
-            <img class="card__icon" src="./images/card-icon.svg" alt="Лайк">
-          </div>
-        </article>
-        <article class="card">
-          <img class="card__image" src="./images/card2.png" alt="Эльбрус">
-          <div class="card__content">
-            <h2 class="card__title">Гора Эльбрус</h2>
-            <img class="card__icon" src="./images/card-icon.svg" alt="Лайк">
-          </div>
-        </article>
-        <article class="card">
-          <img class="card__image" src="./images/card3.png" alt="Домбай">
-          <div class="card__content">
-            <h2 class="card__title">Домбай</h2>
-            <img class="card__icon" src="./images/card-icon.svg" alt="Лайк">
-          </div>
-        </article>
-        <article class="card">
-          <img class="card__image" src="./images/card2.png" alt="Эльбрус">
-          <div class="card__content">
-            <h2 class="card__title">Гора Эльбрус</h2>
-            <img class="card__icon" src="./images/card-icon.svg" alt="Лайк">
-          </div>
-        </article>
-        <article class="card">
-          <img class="card__image" src="./images/card3.png" alt="Домбай">
-          <div class="card__content">
-            <h2 class="card__title">Домбай</h2>
-            <img class="card__icon" src="./images/card-icon.svg" alt="Лайк">
-          </div>
-        </article>
-        <article class="card">
-          <img class="card__image" src="./images/card1.png" alt="Карачаевск">
-          <div class="card__content">
-            <h2 class="card__title">Карачаево-Ч...</h2>
-            <img class="card__icon" src="./images/card-icon.svg" alt="Лайк">
-          </div>
-        </article>
+      <section class="cards" aria-label="Карточки">
+        <ul class="cards__list">
+          <li>
+            <article class="card">
+              <img class="card__image" src="./images/card1.png" alt="Карачаево-Черкессия">
+              <div class="card__content">
+                <h2 class="card__title">Карачаево-Черкессия</h2>
+                <button type="button" class="card__button" aria-level="Лайк"></button>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="card">
+              <img class="card__image" src="./images/card2.png" alt="Эльбрус">
+              <div class="card__content">
+                <h2 class="card__title">Гора Эльбрус</h2>
+                <button type="button" class="card__button" aria-level="Лайк"></button>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="card">
+              <img class="card__image" src="./images/card3.png" alt="Домбай">
+              <div class="card__content">
+                <h2 class="card__title">Домбай</h2>
+                <button type="button" class="card__button" aria-level="Лайк"></button>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="card">
+              <img class="card__image" src="./images/card2.png" alt="Эльбрус">
+              <div class="card__content">
+                <h2 class="card__title">Гора Эльбрус</h2>
+                <button type="button" class="card__button" aria-level="Лайк"></button>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="card">
+              <img class="card__image" src="./images/card3.png" alt="Домбай">
+              <div class="card__content">
+                <h2 class="card__title">Домбай</h2>
+                <button type="button" class="card__button" aria-level="Лайк"></button>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="card">
+              <img class="card__image" src="./images/card1.png" alt="Карачаево-Черкессия">
+              <div class="card__content">
+                <h2 class="card__title">Карачаево-Черкессия</h2>
+                <button type="button" class="card__button" aria-level="Лайк"></button>
+              </div>
+            </article>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
       <p class="footer__text">© 2020 Mesto Russia</p>
     </footer>
   </div>
+  <div class="background background_closed"></div>
   <div class="popup popup_closed">
-    <form class="popup__container">
+    <form class="popup__container" name="profile">
       <h2 class="popup__title">Редактировать профиль</h2>
-      <input type="text" class="popup__field" placeholder="Жак-Ив Кусто"  value="Жак-Ив Кусто">
-      <input type="text" class="popup__field" placeholder="Исследователь океана" value="Исследователь океана">
-      <button type="button" class="popup__button-save">Сохранить</button>
+      <input type="text" name="profile" class="popup__field popup__field_position_top" placeholder="Жак-Ив Кусто" required>
+      <input type="text" name="profile" class="popup__field popup__field_position_bottom" placeholder="Исследователь океана" required>
+      <button type="submit" name="submit" class="popup__button-save">Сохранить</button>
     </form>
     <button type="button" class="popup__button-off"><img class="popup__vector-off" src="./images/icon-off.svg" alt="Закрыть"></button>
   </div>
-<script src="./script.js"></script>
+<script src="./scripts/script.js"></script>
 </body>
-
-
 </html>

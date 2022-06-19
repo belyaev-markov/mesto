@@ -1,13 +1,13 @@
 .footer {
-  width: calc(88000% / 1280);
+  max-width: 100%;
+  width: 100%;
   margin: 67px 0 60px 0;
   text-align: left;
   color: #545454;
 }
-@media all and (max-width: 767px) {
+@media all and (max-width: 620px) {
   .footer {
     margin: 48px 0 36px 0;
-    width: calc(28200% / 320);
   }
 }
 

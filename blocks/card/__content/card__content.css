@@ -1,8 +1,7 @@
 .card__content {
-  /* width: calc(24600% / 282); */
-  /* width: 19.2vw; */
   margin: 25px 15px 31px 21px;
   display: flex;
   justify-content: space-between;
   color: #000;
+  align-items: flex-end;
 }

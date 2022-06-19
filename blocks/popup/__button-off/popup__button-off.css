@@ -2,24 +2,27 @@
   margin: 0 0 8px 8px;
   padding: 0;
   border: none;
-  width: calc(3200% / 425);
+  width: 32px;
+  height: 32px;
   grid-column: 3;
   grid-row: 1;
   height: max-content;
   align-self: flex-end;
   background: none;
   color: white;
+  cursor: pointer;
 }
 
 .popup__button-off:hover {
   opacity: 0.8;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 620px) {
   .popup__button-off {
     grid-column: 2;
     justify-self: flex-end;
     margin: 0 0 16px 0;
-    width: calc(2000% / 282);
+    width: 20px;
+    height: 20px;
   }
 }

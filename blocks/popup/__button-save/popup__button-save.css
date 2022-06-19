@@ -1,6 +1,7 @@
 .popup__button-save {
-  width: calc(35800% / 430);
-  margin: 11.2% 0 8.6% 0;
+  max-width: 100%;
+  width: 100%;
+  margin: 48px 0 37px 0;
   display: flex;
   justify-content: center;
   background-color: black;
@@ -9,16 +10,22 @@
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.4vw;
+  font-size: 18px;
   line-height: calc(22 / 18);
   color: white;
   border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  overflow: hidden;
 }
-@media all and (max-width: 767px) {
+.popup__button-save:hover {
+  opacity: 0.8;
+}
+@media all and (max-width: 620px) {
   .popup__button-save {
     margin: 45px 0 25px 0;
     padding: 14px 0;
-    font-size: 4.4vw;
+    font-size: 2.8rem;
     line-height: calc(17 / 14);
   }
 }

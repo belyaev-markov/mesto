@@ -1,0 +1,15 @@
+.card__button {
+  width: 22px;
+  height: 19px;
+  padding: 0;
+  background-image: url(../../../images/card-icon.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+.card__button:hover {
+  opacity: 0.5;
+}

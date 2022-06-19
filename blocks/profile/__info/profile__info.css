@@ -1,16 +1,17 @@
 .profile__info {
   display: grid;
-  grid-template-columns: 1fr calc(2400% / 336);
+  grid-template-columns: 1fr max-content;
   justify-items: left;
   align-items: center;
-  width: calc(33600% /880);
+  max-width: calc(33600% /880);
+  width: 100%;
   margin-right: auto;
   color: white;
 }
-@media all and (max-width: 767px) {
+@media all and (max-width: 620px) {
 .profile__info {
-  margin-top: 22.25px;
+  margin: 22px 0 0;
+  max-width: 100%;
   width: 100%;
-  grid-template-columns: 1fr calc(4700% / 282);
 }
 }
