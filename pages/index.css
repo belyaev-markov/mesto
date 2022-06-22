@@ -29,9 +29,6 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__text/footer__text.css);
 
-@import url(../blocks/background/background.css);
-@import url(../blocks/background/_closed/background_closed.css);
-
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_open/popup_open.css);
 
