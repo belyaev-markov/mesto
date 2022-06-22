@@ -9,8 +9,6 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 100%;
-  width: 100%;
 }
 @media all and (max-width: 620px) {
   .card__title {

@@ -1,8 +1,8 @@
-.popup__field_position_top {
+.popup__field_type_profession {
   margin: 54px 0 0 0;
 }
 @media all and (max-width: 620px) {
-  .popup__field_position_top {
+  .popup__field_type_profession {
     margin: 75px 0 0 0;
   }
 }

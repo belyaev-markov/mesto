@@ -4,14 +4,11 @@
   left: 0;
   right: 0;
   bottom: 0;
+  display: none;
   width: 100%;
-  z-index: 3;
-  display: grid;
-  grid-template-columns: 1fr max-content 1fr;
-  grid-template-rows: 1fr max-content 1fr;
+  z-index: 2;
+
+  /* background-color: black;
+  opacity: 0.5; */
 }
-@media all and (max-width: 620px) {
-  .popup {
-    grid-template-columns: 1fr minmax(max-content, calc(100% - 40px)) 1fr;
-  }
-}
+

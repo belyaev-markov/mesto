@@ -1,6 +1,4 @@
 .popup__title {
-  max-width: 100%;
-  width: 100%;
   margin: 34px 0 0 0;
   padding: 0;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
@@ -12,6 +10,7 @@
 }
 @media all and (max-width: 620px) {
   .popup__title {
+    width: 100%;
     margin: 25px 0 0 0;
     font-size: 3.6rem;
     line-height: calc(22 / 18);

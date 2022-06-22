@@ -1,4 +1,6 @@
 .popup__button-off {
+  grid-column: 3;
+  grid-row: 1;
   margin: 0 0 8px 8px;
   padding: 0;
   border: none;
@@ -7,8 +9,11 @@
   grid-column: 3;
   grid-row: 1;
   align-self: flex-end;
-  background: none;
-  color: white;
+  background-image: url(../../../images/icon-off.svg);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
   cursor: pointer;
 }
 

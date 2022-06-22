@@ -1,0 +1,21 @@
+.popup__form {
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 1);
+  color: #000;
+  border-radius: 10px;
+  max-width: 430px;
+  padding: 34px 36px 37px;
+  box-sizing: border-box;
+  z-index: 4;
+}
+@media all and (max-width:620px) {
+  .popup__form {
+    max-width: 100%;
+    padding: 25px 22px;
+  }
+}

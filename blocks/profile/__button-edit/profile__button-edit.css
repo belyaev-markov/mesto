@@ -1,4 +1,5 @@
 .profile__button-edit {
+  margin: 0 0 0 18px;
   grid-column: 2;
   grid-row: 1;
   width: 24px;
@@ -20,9 +21,8 @@
 
 @media all and (max-width: 620px) {
   .profile__button-edit {
-    margin: auto 19px 0 0;
+    margin: auto 19px auto 10px;
     width: 18px;
     height: 18px;
-    justify-self: left;
   }
 }

@@ -1,16 +1,15 @@
 .footer__text {
   margin: 0;
   padding: 0;
-  width: 100%;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.8em;
+  font-size: 1.8rem;
   line-height: calc(22 / 18);
 }
 @media all and (max-width: 620px) {
   .footer__text {
-    font-size: 2.8em;
+    font-size: 2.8rem;
     line-height: calc(17 / 14);
   }
 }
