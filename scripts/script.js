@@ -32,10 +32,4 @@ editButton.addEventListener('click', openForm);
 offButton.addEventListener('click', closeForm);
 form.addEventListener('submit', submitForm);
 
-for (let index = 0; index < cardsButton.length; index++) {
-  const element = cardsButton[index];
-  element.addEventListener('click', () => {
-    element.classList.add('card__button_active');
-  }
-  );
-}
+
