@@ -1,6 +1,6 @@
 .profile__subtitle {
-  margin: 16px 0 0 0;
-  padding: 0;
+  margin: 0;
+  padding: 16px 0 0 0;
   grid-column: 1 / -1;
   grid-row: 2;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
@@ -13,11 +13,13 @@
   overflow: hidden;
   text-align: left;
   width: 100%;
+  box-sizing: border-box;
 
 }
 @media all and (max-width: 620px) {
   .profile__subtitle {
-    margin: 14px auto auto 0;
+    margin: 0 auto auto 0;
+    padding: 14px 0 0 0;
     font-size: 14px;
     line-height: calc(17 / 14);
     text-align: center;

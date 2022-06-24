@@ -9,8 +9,6 @@ const formFieldBottom = document.querySelector('.popup__field_type_specializatio
 const profileTitle = document.querySelector('.profile__title');
 const profileSubtitle = document.querySelector('.profile__subtitle');
 
-const cardsButton = document.querySelectorAll('.card__button');
-
 function openForm() {
   formFieldTop.value = profileTitle.textContent;
   formFieldBottom.value = profileSubtitle.textContent;

@@ -1,7 +1,7 @@
 .popup__button-save {
   max-width: 100%;
   width: 100%;
-  margin: 48px 0 37px 0;
+  margin: 48px 0 0 0;
   display: flex;
   justify-content: center;
   background-color: black;
@@ -23,7 +23,7 @@
 }
 @media all and (max-width: 620px) {
   .popup__button-save {
-    margin: 45px 0 25px 0;
+    margin: 45px 0 0 0;
     padding: 14px 0;
     font-size: 2.8rem;
     line-height: calc(17 / 14);
