@@ -1,11 +1,11 @@
 .header__logo {
-  width: calc(14200% / 880);
+  width: 142px;
   color: white;
   margin-bottom: 41px;
 }
 @media all and (max-width: 620px) {
   .header__logo {
-    margin: 0 auto 32px 27px;
-    width: calc(10400% / 320);
+    margin: 0 0 32px 7px;
+    width: 104px;
   }
 }
